@@ -338,7 +338,7 @@ a, button, li {
 
 .navbar__cta {
   font-family: var(--font-mono);
-  font-size: 22px;
+  font-size: 20px;
   padding: 10px 20px;
   border: 1px solid rgba(10, 255, 157, 0.4);
   border-radius: 4px;
