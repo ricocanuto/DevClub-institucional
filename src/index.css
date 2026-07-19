@@ -352,7 +352,50 @@ a, button, li {
     display: none;
   }
 }
-
+.navbar__toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--color-green);
+  cursor: none;
+  padding: 4px;
+}
+ 
+.navbar__mobile-menu {
+  position: fixed;
+  top: 76px;
+  left: 0;
+  right: 0;
+  z-index: 49;
+  background: rgba(5, 5, 5, 0.97);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--color-border);
+  padding: 24px;
+}
+ 
+.navbar__mobile-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ 
+.navbar__mobile-menu a {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  color: var(--color-text);
+}
+ 
+@media (max-width: 900px) {
+  .navbar__toggle {
+    display: flex;
+    align-items: center;
+  }
+  .navbar__cta {
+    display: none;
+  }
+}
 /* ==========================================================================
    5. FOOTER
    ========================================================================== */
