@@ -51,10 +51,12 @@ export default function Hero() {
         </motion.div>
 
         <motion.div variants={item} className="cta-row">
-          <button className="cta-primary hoverable">
+          <button type="button" className="cta-primary hoverable">
             [ INICIAR_TRAJETO_<span className="terminal-caret" /> ]
           </button>
-          <button className="cta-secondary hoverable">Ver formações</button>
+          <button type="button" className="cta-secondary hoverable">
+            Ver formações
+          </button>
         </motion.div>
       </motion.div>
 
