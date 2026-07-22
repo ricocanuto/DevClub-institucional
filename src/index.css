@@ -150,11 +150,8 @@ a, button, li {
 .hero__title {
   font-family: var(--font-mono);
   font-weight: 800;
-  font-size: clamp(40px, 6vw, 80px);
-  line-height: 1.05;
-  letter-spacing: -1px;
-  max-width: 920px;
-  position: relative;
+  font-size: clamp(36px, 6vw, 72px);
+  line-height: 1.1;
 }
 
 .hero__title-highlight {
@@ -313,11 +310,13 @@ a, button, li {
 .logo {
   font-family: var(--font-mono);
   font-weight: 800;
-  font-size: 26px;
+  font-size: 22px;
   letter-spacing: 0.5px;
   display: flex;
   align-items: center;
   gap: 8px;
+  text-decoration: none;
+  color: var(--color-text);
 }
 
 .logo__bracket {
@@ -328,7 +327,7 @@ a, button, li {
   display: flex;
   gap: 36px;
   list-style: none;
-  font-size: 22px;
+  font-size: 20px;
   color: #a8a8a8;
 }
 
